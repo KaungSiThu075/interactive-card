@@ -62,7 +62,7 @@ const App: React.FC = () => {
       <div>
         {/* start of card-front  */}
         <div className=" relative top-20 right-5 z-20 text-white xs:top-24 sm:top-44">
-          <img src="../src/assets/bg-card-front.png" alt="" />
+          <img src="../src/assets/bg-card-front.png" alt="card-front" />
           {/* card number on img  */}
           <div className=" absolute font-semibold top-16 left-12 tracking-widest text-lg md:text-3xl">
             {!cardNumber
@@ -90,7 +90,7 @@ const App: React.FC = () => {
 
         {/* start of card-back  */}
         <div className=" relative bottom-48 left-6 xs:bottom-52 430px:bottom-56">
-          <img src="../src/assets/bg-card-back.png" alt="" />
+          <img src="../src/assets/bg-card-back.png" alt="card-back" />
           <div className=" absolute font-semibold bottom-20 right-10 text-white tracking-widest 430px:bottom-24 sm:bottom-28">
             {!cvc ? originNum2 : cvc}
           </div>
